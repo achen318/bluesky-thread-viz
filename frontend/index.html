@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bluesky Thread Visualizer</title>
+  </head>
+  <body>
+    <form>
+      <label for="threadUrl">Enter Bluesky Thread URL:</label>
+      <input
+        type="text"
+        id="threadUrl"
+        name="threadUrl"
+        placeholder="https://bsky.app/..."
+      />
+      <button type="submit">Visualize Thread</button>
+    </form>
+
+    <div id="viz"></div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
