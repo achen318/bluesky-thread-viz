@@ -2,8 +2,13 @@ input {
   width: 50%;
 }
 
-svg {
+#vizContainer {
+  overflow-x: auto;
+  overflow-y: hidden;
   border: 1px solid #ccc;
   width: 100%;
+}
+
+svg {
   display: block;
 }
